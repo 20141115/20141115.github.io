@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A layout example that shows off a responsive photo gallery.">
+
+        <title> Jack loves Narae</title>
+        
+        <!-- Add jQuery library -->
+        <script type="text/javascript" src="fancybox/lib/jquery-1.9.0.min.js"></script>
+
+        <!-- Add mousewheel plugin (this is optional) -->
+        <script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+        <!-- Add fancyBox -->
+        <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+        <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+        <!-- Optionally add helpers - button, thumbnail and/or media -->
+        <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+        <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+        <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+        <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+        <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+
+  
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/gallery-grid-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/layouts/gallery-grid.css">
+    <!--<![endif]-->
+  
+
+  
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/gallery-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/layouts/gallery.css">
+    <!--<![endif]-->
+  
+
+
+
+
+    
+
+    <script>
+    $(document).ready(function() {
+        $("#w1").fancybox({  helpers: {   title : {  type : 'float'  }   } });
+        $("#w3").fancybox({  helpers: {   title : {  type : 'float'  }   } });
+        $("#w5").fancybox({  helpers: {   title : {  type : 'float'  }   } });
+        $("#w2").fancybox({  helpers: {   title : {  type : 'float'  }   } });
+        $("#w9").fancybox({  helpers: {   title : {  type : 'float'  }   } });
+        $("#w7").fancybox({  helpers: {   title : {  type : 'float'  }   } });
+        $("#w11").fancybox({  helpers: {   title : {  type : 'float'  }   } });
+        $("#w12").fancybox({  helpers: {   title : {  type : 'float'  }   } });
+
+        $("#w4").fancybox({  helpers: {   title : {  type : 'float'  }   } });
+        $("#w10").fancybox({  helpers: {   title : {  type : 'float'  }   } });
+        $("#w6").fancybox({  helpers: {   title : {  type : 'float'  }   } });
+
+
+    });
+    </script>
+
+</head>
+<body>
+
+
+
+
+
+
+
+<div>
+    <div class="header">
+        <div class="pure-menu pure-menu-open pure-menu-horizontal">
+            <!--<a class="pure-menu-heading" href="">Photo Gallery</a>-->
+
+            <ul>
+                <li class="pure-menu-selected"><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="pure-g">
+        <div class="u-1" >
+            <a id="w1" href="./w/w1.jpg" title="애교넘치는 대문">
+                <img class="pure-img" src="./w/w1.jpg" style="width:3000px;">
+            </a>
+
+
+        </div>
+
+
+
+        <div class="text-box u-1">
+            <div class="l-box" style="text-align:center;">
+                <br>
+                <br>
+                <div class="" style="font-size:40px;color:white;">Jack Loves Narae </div>
+            </div>
+        </div>
+
+
+
+        <div class="u-1 u-lrg-1-2">
+            <a id="w3" href="./w/w3.jpg">
+                <img class="pure-img" src="./w/w3.jpg" alt="City">
+            </a>
+
+
+        </div>
+
+
+        <div class="u-1 u-lrg-1-2">
+            <a id="w5" href="./w/w5.jpg">
+                <img class="pure-img" src="./w/w5.jpg"
+                     alt="Bridge">
+            </a>
+
+        </div>
+
+
+
+        <div class="u-1 u-lrg-1-2">
+            <a id="w2" href="./w/w2.jpg">
+                <img class="pure-img" src="./w/w2.jpg"
+                     alt="Meadow">
+            </a>
+
+
+        </div>
+        <div class="u-1 u-lrg-1-2">
+            <a id="w9" href="./w/w9.jpg">
+                <img class="pure-img" src="./w/w9.jpg"
+                     alt="Flowers">
+            </a>
+
+
+        </div>
+
+
+
+        <div class="u-1">
+            <a id="w7" href="./w/w7.jpg">
+                <img class="pure-img"  src="./w/w7.jpg"
+                     style="width:3000px;">
+            </a>
+
+ 
+        </div>
+        <div class="u-1-2">
+            <a id="w11" href="./w/w11.jpg">
+                <img class="pure-img"  src="./w/w11.jpg"
+                     alt="Rain Drops">
+            </a>
+
+
+        </div>
+
+        <div class="u-1-2">
+            <a  id="w12" href="./w/w12.jpg">
+                <img class="pure-img"  src="./w/w12.jpg"
+                     alt="Rain Drops">
+            </a>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="u-1-3 u-lrg-1-3">
+            <a id="w4" href="./w/w4.jpg">
+                <img class="pure-img" src="./w/w4.jpg"
+                     alt="Bridge">
+            </a>
+
+            <aside class="photo-box-caption">
+            </aside>
+        </div>
+
+        <div class="u-1-3 u-lrg-1-3">
+            <a id="w10" href="./w/w10.jpg">
+                <img class="pure-img" src="./w/w10.jpg"
+                     alt="Bridge">
+            </a>
+
+            <aside class="photo-box-caption">
+            </aside>
+        </div>
+
+        <div class="u-1-3 u-lrg-1-3">
+            <a id="w6" href="./w/w6.jpg">
+                <img class="pure-img" src="./w/w6.jpg"
+                     alt="Bridge">
+            </a>
+
+            <aside class="photo-box-caption">
+            </aside>
+        </div>
+
+
+
+
+
+
+<!--
+        <div class="u-1 form-box">
+            <div class="l-box">
+                <h2>Submit a Photo</h2>
+
+                <form class="pure-form">
+                    <input type="text" placeholder="Photo URL" required>
+                    <input type="text" placeholder="Email">
+                    <button type="submit" class="pure-button">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="u-1">
+            <div class="l-box">
+                <h2>Creating a Photo Gallery Layout</h2>
+
+                <p>
+                    This page shows how to make a photo gallery using <a href="">Pure Grids</a>. Using Pure, we can create interesting layouts such as this photo gallery. This layout is fully responsive. We've added a bit of custom media queries on top of the responsive grid provided by Pure.
+                </p>
+
+                <p>
+                    We've also taken advantage of <a href="">Pure Forms</a> and <a href="">Pure Menus</a>. This example uses a form with the <code>pure-form</code> class name to create an inline form. We use <a href="">Pure Buttons</a> for the button styling.
+                </p>
+            </div>
+        </div>
+
+-->
+    </div>
+
+    <div class="footer">
+    <hr>
+        <h2 style="color:gray">We're Just Married !</h2>
+    </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
