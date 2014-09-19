@@ -569,14 +569,8 @@
 		<!-- ==============================================
 		TWITTER
 		=============================================== -->
-		<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "http://connect.facebook.net/ko_KR/sdk.js#xfbml=1&appId=767379876658175&version=v2.0";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+		
+		
 
 		<section id="twitter" class=" bg-color1">
 
@@ -586,17 +580,28 @@
 						<i class="fa fa-twitter"></i>
 					</div>
 					<div class="col-sm-11">
-					<!--
-						<div id="twitter-slider" class="flexslider" data-widget-id="345690956013633536" data-tweets-length="3"></div>-->
 						
 					</div>
 				</div>
 			</div>
-		
 		</section>
-		<div class="contact-bg" style="min-height:380px;">
-					<div class="fb-comments" data-href="http://www.jacknarae.com" data-width="100%" data-numposts="5" data-colorscheme="light"></div>
-		</div>
+
+		<!-- <div class="contact-bg" style="min-height:380px;width:100%;"> -->
+			<div class="container">
+				<div id="fb-root"> </div>
+
+				<script> (function(d, s, id) {
+					  var js, fjs = d.getElementsByTagName(s)[0];
+					  if (d.getElementById(id)) return;
+					  js = d.createElement(s); js.id = id;
+					  js.src = "http://connect.facebook.net/ko_KR/all.js#xfbml=1&appId=767379876658175";
+					  fjs.parentNode.insertBefore(js, fjs);
+					}(document, 'script', 'facebook-jssdk'));
+				</script>
+
+				<div class="fb-comments" data-href="http://www.jacknarae.com" data-width="100%" data-numposts="5" data-colorscheme="light"> </div>
+			</div>
+		<!-- </div> -->
 <!-- ==============================================
 		FOOTER
 		=============================================== -->	

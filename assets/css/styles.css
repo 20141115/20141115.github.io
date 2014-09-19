@@ -1,6 +1,9 @@
 /*-----------------------
 ----- Basic Styles -----
 -------------------------*/
+.fb_iframe_widget,
+.fb_iframe_widget span,
+.fb_iframe_widget iframe[style]  {width: 100% !important;}
 
 body{
 	font-family: Raleway, Arial, sans-serif;
@@ -926,7 +929,12 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     background-position:0 100%;
     background-color: #fff;
 }
-
+.contact-bg{
+    background-image:url('../images/bg-contact.png');
+    background-repeat:no-repeat;
+    background-position:0 100%;
+    background-color: #fff;
+}
 #contact-form .form-group label{
     display:none;
     font-size:18px;
